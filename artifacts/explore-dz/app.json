@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "اكتشف الجزائر – Explore DZ",
+    "slug": "explore-dz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "explore-dz",
+    "userInterfaceStyle": "light",
+    "supportsRTL": true,
+    "splash": {
+      "backgroundColor": "#F7F5EF",
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {},
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
